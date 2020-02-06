@@ -1,0 +1,157 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.container-fluid{
+    margin: 0px !important;
+    padding: 0px !important;
+    background-image: url(repair.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 100vh;
+}
+
+.bg{
+    background-color: white;
+}
+.bg a{
+    color: orange;
+}
+.bg a:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    text-shadow: 3px 3px 7px orange;
+}
+.size img{
+    height: 50px;
+    width: auto;
+    animation: rotate 6s infinite linear;
+    display: block;
+}
+.size img:hover{
+    animation: rotate 3s infinite linear;
+}
+.size2 img{
+    height: 50px;
+    width: auto;
+    display: block;
+    animation: side 2s infinite ease-in-out;
+}
+.small img{
+    height: 30px;
+    width: auto;
+    display: block;
+    animation: side 2s infinite ease-in-out;
+}
+.size2 img:hover , .small img:hover{
+    animation: side 1s infinite ease-in-out;
+}
+.size1 img{
+    height: 100px;
+    width: auto;
+    display: block;
+    animation: tool 2s infinite ease-in-out;
+    transform-origin: top;
+}
+.style{
+    border: 1px solid orange !important;
+}
+.navbar-toggler-icon{
+    background-color: orange !important;
+}
+
+.logo img{
+    height: 23em;
+    transform: translate(-30%,20%);
+}
+
+.pos button{
+    transform: translate(20%,-100%);
+    background-color: orange;
+    border: 1px solid rgb(255, 188, 62);
+}
+.pos button:hover {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    box-shadow: 3px 3px 7px orange;
+}
+@keyframes tool{
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes side{
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.bod img{
+    height: 500px;
+}
+h1 ,h2 ,p{
+    text-align: center;
+    color: orange !important;
+}
+h2:hover ,p:hover ,a:hover ,h1:hover{
+    text-shadow: 3px 3px 7px orange;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+  }
+.logo-f{
+    height: 100%;
+    width: 100%;
+}
+.links a{
+    text-decoration: none !important;
+    color: orange !important;
+}
+.links{
+    list-style: none;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode: lighten;
+    background-position: right;
+}
+.news p , .news h2{
+    color: black;
+}
