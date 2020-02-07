@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="shortcut icon" type="image/png" href="aacar_logo_black.png">
 </head>
 <body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -17,7 +17,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
     
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
     
+
+
+
     <div class="container-fluid">
         <!-- Navbar -->
         <nav class="navbar sticky-top navbar-expand-lg bg">
@@ -67,10 +74,14 @@
             </div>
         </nav>
 
+        <div class="wrapper">
+            <div class="wave1"></div>
+        </div>
+        
         <!-- Banner -->
         <div class="row pt-5">
             <div class="col-3 d-flex justify-content-center size"><img src="gear.png"></div>
-            <div class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center logo">
+            <div class="col-lg-3 col-md-12 col-sm-12 d-flex justify-content-center logo headline">
                 <ul>
                     <li style="list-style: none;"><img src="aacar_logo_black.png"></li>
                     <li style="list-style: none;" class="pos"><button class="btn btn-lg btn-primary"> REGISTER </button></li>
@@ -84,15 +95,25 @@
             <div class="col-6 d-flex justify-content-center size"><img src="plus.png"></div>
         </div>
     </div>
+
+ 
     <!-- Body -->
+
+
+
+    <div class="wrapper">
+        <div class="wave2"></div>
+    </div>
+
+
     <div class="row pt-5">
         <div class="col-12 d-flex justify-content-center"><h1>AACAR 7.0</h1></div>
     </div>
     <div class="row">
-        <div class="col-lg-7 col-sm-12 d-flex justify-content-center bod">
+        <div class="col-lg-7 col-sm-12 d-flex justify-content-center bod headline">
             <img src="body.png">
         </div>
-        <div class="col-lg-5 col-sm-12 d-flex justify-content-center content pt-5">
+        <div class="col-lg-5 col-sm-12 d-flex justify-content-center content pt-5 text">
             <ul style=" list-style: none;">
                 <li><h2 class="pt-5">Time to witness the real art of engineering</h2></li>
                 <li><p class="pt-5">SAE collegiated club , AKGEC presents AACAR 7.0 Overhauling workshop where you will learn about basics of automobiles and vehicle design , live model demostration of automobile parts and engine Overhauling. </p></li>
@@ -100,7 +121,18 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center p-5"><h1>Gallery</h1></div>
+
+
+    <script>
+        ScrollReveal().reveal('.headline' , {delay: 300});
+        ScrollReveal().reveal('.text' , {delay: 500});
+    </script> 
     <!-- Swipper -->
+
+    <div class="wrapper">
+        <div class="wave1"></div>
+    </div>
+
     <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="background-image:url(back.jpg)"></div>
