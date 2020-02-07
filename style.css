@@ -155,3 +155,24 @@ h2:hover ,p:hover ,a:hover ,h1:hover{
 .news p , .news h2{
     color: black;
 }
+.content{
+    align-items: center;
+    align-content: center;
+}
+.content h2,p{
+    max-width: 400px;
+}
+@media only screen and (max-width: 875px) {
+    .size img{
+        display: none;
+    }
+    .size1 img{
+        display: none;
+    }
+    .size2 img{
+        display: none;
+    }
+    .small img{
+        display: none;
+    }
+}
