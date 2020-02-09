@@ -56,6 +56,9 @@ html{
     animation: tool 2s infinite ease-in-out;
     transform-origin: top;
 }
+.size1 img:hover{
+    animation: tool 1s infinite ease-in-out;   
+}
 .style{
     border: 1px solid orange !important;
 }
